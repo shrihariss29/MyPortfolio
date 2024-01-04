@@ -1,0 +1,361 @@
+.quote
+{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 70px;
+    font-weight:bolder;
+}
+.animate
+{
+    animation : quoteload 1000ms ease-in;
+}
+@keyframes quoteload
+{
+    0%{
+     transform: translateY(-10%);
+    }
+    100%
+    {
+     transform: translateY(1%);
+    }
+}
+.contactcard
+{
+    background-color:#eaeaea;
+    height: 330px;
+    width: 650px;
+    border-radius: 5%;
+    display: flex inline-block;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    gap: 300px;
+}
+.contactbtn
+{
+    text-decoration: none;
+    color: black;
+}
+.contactcontent
+{
+    display: flex;
+    gap: 5px;
+    margin-left: 10%;
+    margin-top: 5%;
+    flex-direction: column;
+}
+.ml-auto
+{
+    font-weight: 500;
+}
+.image
+{
+    height: 500px;
+    width: 750px;
+    border-radius: 5%;
+    transition: transform 500ms;
+}
+.image:hover{
+    transform: scale(0.95);
+}
+.home
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.welcome
+{
+    font-size:30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.card {
+    flex-direction: row;
+    border: 0px;
+    gap:10px;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 8%;
+    transition: transform 500ms;
+}
+.card:hover{
+    transform: scale(0.95);
+}
+.projimg
+{
+    height:343px;
+    width: 704px;
+    margin: 0;
+    padding: 0 ;
+}
+.btn {
+    transition: background-color 300ms ease-out 100ms;
+  }
+  
+.btn:hover {
+    background-color:black;
+    height:40px;
+    width:110px;
+  }
+  .carouselimg
+  {
+    height: 648px;
+    width: 1000px;
+    padding: 50px;
+    padding-top: 0;
+    margin-top: 3%;
+    margin-left: 17%;
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 25px;
+    width: 25px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.bg-body-tertiary
+{
+    position: static;
+}
+.homecard
+{
+    display: flex;
+    border: 0px;
+    gap:10px;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 8%;
+    transition: transform 500ms;
+    width: 1000px;
+    height: 300px;
+}
+.homecard:hover{
+    transform: scale(0.95);
+}
+.card-img-top
+{
+    height:200px;
+    width:300px;
+    border-radius: 5%;
+}
+.aboutcontent
+{
+    font-size:20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 5px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.underline
+{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+    justify-content: right;
+}
+.aboutmetitle
+{
+    margin-top: 2%;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 50px;
+    font-weight:bolder;
+    margin-left: 200px;
+}
+.clubcard
+{
+   padding: 50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 200px;
+   margin-right: 200px;
+   border-radius: 5%;
+   display: flex;
+   transition: transform 500ms;
+}
+.clubcard:hover
+{
+    transform: scale(0.95);
+}
+.clubimg
+{
+    height: 200px;
+    width: 200px;
+}
+footer
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 20px;
+}
+.educard
+{
+    width: 1000px;
+    border-radius: 8%;
+    transition: transform 500ms;
+}
+.educard:hover{
+    transform: scale(0.95);
+}
+.eduincard
+{
+    background-color: #F7B787;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 5%;
+}
+.bg-body-tertiary
+{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #eaeaea ;
+}
+@media (max-width: 800px) 
+{
+.quote
+{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 35px;
+    font-weight:bolder;
+}
+.welcome
+{
+    font-size:8px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.contactcard
+{
+    background-color:#eaeaea;
+    height: 320px;
+    width: 410px;
+    align-content: center;
+    border-radius: 5%;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex inline-block;
+    gap: 300px;
+}
+.image
+{
+    height: 264px;
+    width: 400px;
+    border-radius: 5%;
+}
+.welcome
+{
+    font-size:20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 0px;
+    border-radius: 5%;
+}
+.projimg
+{
+    padding :75px;
+    padding-bottom: 0px;
+    margin: 0px;
+    height:243px;
+    width: 504px;
+}
+.carouselimg
+{
+    height: 400px;
+    width: 600px;
+    padding:0;
+    margin-top: 3%;
+    margin-left:0%
+  }
+  .homecard
+{
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    gap:10px;
+    border-radius: 8%;
+    transition: transform 500ms;
+    width: 450px;
+    height: 450px;
+    padding: 0;
+    margin: 0px;
+}
+.card-img-top
+{
+    height:300px;
+    width:466px;
+    border-radius: 5%;
+}
+.aboutmetitle
+{
+    margin-top: 2%;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 35px;
+    font-weight:bolder;
+    margin-left: 10px;
+}
+.aboutcontent
+{
+    font-size:20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.clubcard
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    margin-bottom: 23px;
+    padding: 0px;
+    border-radius: 5%;
+}
+.clubimg
+{
+    padding:20px;
+    height: 350px;
+    width: 350px;
+    border-radius: 5%;
+}
+.educard
+{
+    width: 450px;
+    border-radius: 5%;
+    transition: transform 500ms;
+    margin-top: 10px;
+}
+.educard:hover{
+    transform: scale(0.95);
+}
+.eduincard
+{
+    background-color: #F7B787;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 5%;
+}
+}
