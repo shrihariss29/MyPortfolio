@@ -222,7 +222,7 @@ footer
     z-index: 1;
     background-color: #eaeaea ;
 }
-@media (max-width: 1100px) 
+@media (max-width: 900px) 
 {
 .quote
 {
@@ -232,7 +232,7 @@ footer
     align-items: center;
     margin-top: 2%;
     font-family: 'IBM Plex Serif', serif;
-    font-size: 35px;
+    font-size: 40px;
     font-weight:bolder;
 }
 .welcome
@@ -284,10 +284,10 @@ footer
 .carouselimg
 {
     height: 400px;
-    width: 600px;
+    width: 80%;
     padding:0;
-    margin-top: 3%;
-    margin-left:0%
+    margin-top: 10%;
+    margin-left:10%
   }
   .homecard
 {
@@ -297,7 +297,7 @@ footer
     gap:10px;
     border-radius: 8%;
     transition: transform 500ms;
-    width: 450px;
+    width: 95%;
     height: 450px;
     padding: 0;
     margin: 0px;
@@ -343,7 +343,7 @@ footer
 }
 .educard
 {
-    width: 450px;
+    width: 95%;
     border-radius: 5%;
     transition: transform 500ms;
     margin-top: 10px;
