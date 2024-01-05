@@ -1,4 +1,4 @@
-/*Updated 2.0*/
+/*Updated 2.1*/
 .quote
 {
     display: flex;  
@@ -27,8 +27,8 @@
 .contactcard
 {
     background-color:#eaeaea;
-    height: 330px;
-    width: 650px;
+    height: 60%;
+    width: 70%;
     border-radius: 5%;
     display: flex inline-block;
     position: absolute;
@@ -258,6 +258,22 @@ footer
 }
 @media(max-width:1100px)
 {
+    .quote
+    {
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 5.5vw;
+    font-weight:bolder;
+    }
+    .welcome
+    {
+    font-size:3vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    }
     .homecard
     {
         height:50%;
@@ -270,7 +286,7 @@ footer
     }
     .educard
     {
-    width: 95%;
+    width: 90%;
     border-radius: 8%;
     transition: transform 500ms;
     }
@@ -392,5 +408,16 @@ footer
      margin-left: 42.5%;
      margin-bottom: 5%;
     }
+    .contactcard
+    {
+    margin-top: 0%;
+    background-color:#eaeaea;
+    height: 350px;
+    width: 70%;
+    border-radius: 5%;
+    gap: 300px;
+    transform: translate(-50%,-200%);
+    }
 }
+
 
