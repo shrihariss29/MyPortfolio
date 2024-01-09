@@ -10,7 +10,7 @@ const Home = () => {
         <div class="homecard" style={{backgroundColor: "#eaeaea"}}>
          <img src={require("../assets/mypic.JPG")} class="card-img-top projimg" alt="Machine learning"/>
            <div class="card-body">
-              <p class="card-text" style={{fontSize:"20px"}}>An enthusiastic learner and a problem solver looking for an opportunity where I can contribute to 
+              <p class="homecardtext">An enthusiastic learner and a problem solver looking for an opportunity where I can contribute to 
                the growth of the organization and enhance my skillsets and abilities.</p>
             </div>
          </div>
@@ -37,7 +37,7 @@ const Home = () => {
             <h3>Sai Vidhyalaya</h3>
             <h5>Lalgudi,Trichy</h5>
             <h6>2005-2018</h6>
-            <h6>CGPA : 7.59</h6>
+            <h6>X percentage : 82.2</h6>
             </div>
            </div>
          </div>
