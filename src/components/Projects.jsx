@@ -60,13 +60,13 @@ const Projects = () => {
          </div>
 
         <div class="card" style={{backgroundColor: "#F8EDE3"}}>
-        <img src={require("../assets/Htmlpic.png")} class="card-img-top projimg" alt="html tag"/>
+        <img src={require("../assets/udemy.jpg")} class="card-img-top projimg" alt="html tag"/>
           <div class="card-body">
            <h5 class="card-title" style={{color: "#16213E"}}>The Complete 2023 Web Development Bootcamp (Certification)</h5>
              <p class="card-text">The course which made me felt so excited as well as confident. I felt empowered and skilled after 
              finishing this course. The feel of creating something new is surreal. Mrs.Angela Yu is the instructor of this course and 
              i am very thankful for her. This website is developed by the skill which i gained there.</p>
-             <a href={require("../assets/udemy.png")} target="_blank" class="btn btn-primary">Certificate</a>
+             <a href={require("../assets/udemy.jpg")} target="_blank" class="btn btn-primary">Certificate</a>
            </div>
         </div>
         <footer>Developed by Shrihari</footer>
