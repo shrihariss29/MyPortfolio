@@ -4,6 +4,17 @@ const Projects = () => {
     <p class="quote animate" style={{fontSize:"35px"}} >Works i did that excites me</p>
       <div class="projectcard">
 
+      <div class="card" style={{backgroundColor: "#F2AFEF"}}>
+       <img src={require("../assets/Htmlpic.png")} class="card-img-top projimg" alt="Machine learning"/>
+         <div class="card-body">
+          <h5 class="card-title" style={{color: "brown"}}>Full stack quiz application with Node.js, Express,js and Postgres </h5>
+            <p class="card-text" >This is a backend project where the user's name is stored in the database initally and allows them
+            to play the fun quiz. After the quiz is finished, it will view the high score. Frontend is built with embedded java script
+            and backend is done with Node.js</p>
+             <a href="https://github.com/shrihariss29/Quish" target="_blank" class="btn btn-primary">GitHub link</a>
+          </div>
+       </div>
+
       <div class="card" style={{backgroundColor: "blanchedalmond"}}>
        <img src={require("../assets/Mldlpic.png")} class="card-img-top projimg" alt="Machine learning"/>
          <div class="card-body">
