@@ -66,7 +66,7 @@ const Projects = () => {
              <p class="card-text">The course which made me felt so excited as well as confident. I felt empowered and skilled after 
              finishing this course. The feel of creating something new is surreal. Mrs.Angela Yu is the instructor of this course and 
              i am very thankful for her. This website is developed by the skill which i gained there.</p>
-             <a href={require("../assets/Htmlpic.png")} target="_blank" class="btn btn-primary">Certificate</a>
+             <a href={require("../assets/udemy.png")} target="_blank" class="btn btn-primary">Certificate</a>
            </div>
         </div>
         <footer>Developed by Shrihari</footer>
