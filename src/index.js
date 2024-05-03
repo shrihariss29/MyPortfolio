@@ -1,10 +1,12 @@
+import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./components/Home";
-import Contact from "./components/Contact";
-import  Aboutme from "./components/Aboutme";
-import Projects from "./components/Projects";
+
+const Projects = React.lazy(() => import("./components/Projects"));
+const Contact = React.lazy(() => import("./components/Contact"));
+const Aboutme = React.lazy(() => import("./components/Aboutme"));
 
 export default function App() {
   return (
