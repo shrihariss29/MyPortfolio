@@ -5,7 +5,7 @@ const Aboutme = () => {
   return (
     <div className="carousel">
       <Carousel>
-        {[1, 2, 3, 4].map((index) => (
+        {[1, 2, 3, 4,5].map((index) => (
           <Carousel.Item key={index}>
             <img className="carouselimg" src={require(`../assets/pic${index}.jpg`)} alt={`My pics in navbar ${index}`} loading="lazy" />
             <Carousel.Caption></Carousel.Caption>
